@@ -9,7 +9,7 @@
   <p> <%= restaurant.category.capitalize %> </p>
   <p> <%= restaurant.address %> </p>
   <p> <%= restaurant.phone_number %> </p>
-  <p> <em><%= restaurant.reviews.first&.content %></em></p>
+  <p> <em><%= restaurant.reviews.sample&.content %></em></p>
 
 <% end %>
 
